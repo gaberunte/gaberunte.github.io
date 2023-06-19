@@ -1,0 +1,48 @@
+---
+layout: page
+title: Contact
+permalink: /contact/
+priority: 0.9
+
+profile_picture: /images/profile-pictures/owlsclover.JPG
+---
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Person",
+    "name": "Gabe Runte",
+    "url": "http://www.gaberunte.com",
+    "sameAs": [
+      "https://twitter.com/{{ site.social-username.twitter }}",
+      "https://github.com/{{ site.social-username.github }}"
+    ]
+  }
+</script>
+<script>
+  function copyURI(evt) {
+    evt.preventDefault();
+    navigator.clipboard.writeText(evt.target.getAttribute('href')).then(() => {
+      /* clipboard successfully set */
+    }, () => {
+      /* clipboard write failed */
+    });
+}
+</script>
+
+<div class="contact-wrapper">
+  <div class="contact">
+  
+    <aside class="contact-intro">
+      <p class="paragraph-huge">
+        All of my recent and ongoing work if available on my <a href="//github.com/{{ site.social-username.github }}">Github</a> and 
+        <a href="https://scholar.google.com/citations?user=kwUQgm8AAAAJ&hl=en&oi=ao">Google Scholar</a>. If you'd
+        like to get in touch, please email me! You can reach me at runte|at|ucsb.edu or <a href="runte@ucsb.edu" onclick="copyURI(event)">copy email to clipboard</a>.
+      </p>
+    </aside>
+    
+</div>
+<div class="contact-intro-image">
+  <img src="{{ page.profile_picture }}" alt="">
+</div>
+</div>

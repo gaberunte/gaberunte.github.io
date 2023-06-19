@@ -1,0 +1,189 @@
+---
+layout: page
+title: CV
+permalink: /cv/
+priority: 0.9
+
+intro: |
+  Listed are many of my interests, experiences, and competences. If you have any questions or would like to collaborate please <a href="/contact">reach out</a>! <br><br>
+  For a PDF of my professional CV, click this <a href="/documents/gaberunte_cv.pdf" download>download link</a>.
+
+education:
+  - degree: <strong>PhD</strong>  Ecology, Evolution, & Marine Biology
+    university: University of California, Santa Barbara
+    dates: September 2021 - Present
+
+  - degree: <strong>MA</strong>  Ecology, Evolution, & Marine Biology
+    university: University of California, Santa Barbara
+    dates: September 2019 - August 2021
+
+  - degree: <strong>BSc</strong>  Environmental Studies
+    university: University of California, Santa Barbara
+    dates: October 2014 - June 2018
+
+
+publications:
+  - title: <a href = "https://doi.org/10.3389/ffgc.2022.995487">Restoring bigcone Douglas-fir post-fire in drought-stricken Southern California.</a> <br> <em>Frontiers in Forests and Global Change</em> (2022)
+    authors: Runte, Gabriel C et al. 
+    dates: 2022
+
+  - title: <a href = "https://doi.org/10.3389/ffgc.2022.995487">Spheres of influence. Host tree proximity and soil chemistry shape rRNA, but not DNA, communities...</a> <br><em>Frontiers in Ecology and Evolution</em> (2021)
+    authors: Runte, Gabriel C, AH Smith, HV Moeller, LM Bogar
+    dates: 2021
+
+  - title:  <a href = "https://doi.org/10.1016/j.soilbio.2023.108952">Exploring plant and soil microbial communities as indicators of soil organic carbon in a California rangeland.</a><br><em>Soil Biology and Biochemistry</em> (2023)
+    authors: Weverka, Jacob, GC Runte, EL Porzig, CJ Carey
+    dates: 2010
+
+
+competitions:
+  - event: Culture Mile Fusion Prize
+    period: 2019 - 2020
+    result: Shortlisted - Team Knolo
+    link: https://www.culturemile.london/fusion-prize-shortlist/knolo
+    # https://www.youtube.com/watch?v=ufmXwUdZJeY&feature=emb_title&ab_channel=CultureMile
+
+  - event: RESI Hackathon
+    period: 2018
+    result: Winners - Team FreeCycle
+    link: https://medium.com/@bemyapp/resi-hackathon-2018-cbf185c29838
+
+talks:
+   - Forest Resiliency Working Group @ CU Boulder (2023)
+   - Ecological Society of America Annual Meeting (2022)
+   - 8th Annual California Oak Symposium (2022)
+   - Yosemite Symbiosis Workshop (2022)
+   - Conservation Seminar Series, UC Santa Barbara* (2022)
+   - Terrestrial Microbiology (EEMB 145) Guest Lecture on Fungi in the Environment* (2021)
+   - UCSB EEMB Graduate Research Symposium (2020)
+   - National Fish and Wildlife Fire Restoration Grantee Forum* (2019)
+   - invited talks denoted with a *
+
+skills:
+  - R Studio
+  - Field research (design, logistics, personnal)
+  - Bioinformatics (community analysis, learning transcriptomics)
+  - Molecular ecology (DNA/RNA libraries)
+  - Fabrication and building (wood, CNC, 3D printing)
+  - Basic Python (primarily geospatial)
+  - jekyll (ex. this site)
+
+about_site: |
+  - Designed and built from scratch by me using
+  [Jekyll](https://jekyllrb.com/).
+
+  - The typefaces used are
+  [DM Sans](https://fonts.google.com/specimen/DM+Sans) and
+  [DM Serif Display](https://fonts.google.com/specimen/DM+Serif+Display),
+  designed by [Colophon Foundry](https://www.colophon-foundry.org/).
+
+  - Other tools and libraries used include, [SASS](http://sass-lang.com/),
+  [jQuery](https://jquery.com/),
+  [Headspace](https://github.com/gdub22/headspace) and
+  [Normalize.css](http://github.com/necolas/normalize.css).
+
+  - All the code for this site is open source and available on
+  [Github](https://github.com/mattgreydesign/mattgreydesign.github.io), deployed
+  and hosted using [Netlify](http://netlify.com/).
+
+  - Although the code is opensource under the GNU General Public License v3, all
+  content is Copyrighted. [Read more](https://github.com/MattGreyDesign/mattgreydesign.github.io/blob/master/LICENSE)
+  {:.list--dashed .list--small}
+---
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org/",
+    "@type": "Person",
+    "name": "Gabe Runte",
+    "jobTitle": "PhD Student",
+    "nationality": "US",
+    "url": "http://www.gaberunte.com/",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Santa Barbara, California",
+      "addressCountry": "United States"
+    }
+  }
+</script>
+
+<div class="about-wrapper">
+  <div class="about">
+
+    <div class="about-intro-description paragraph-normal">
+      {{ page.intro | markdownify }}
+    </div>
+
+    <div class="about-attributes">
+      <div class="about-education">
+        <div class="about-section">
+          <h3 class="about-section-title type-level-2">Education</h3>
+          <dl class="relational-list">
+            {% for education-item in page.education %}
+              <dt class="relational-list__title">{{ education-item.degree | markdownify}}</dt>
+              <dd class="relational-list__description relational-list__description--period">{{ education-item.dates | markdownify}}</dd>
+              <dd class="relational-list__description">{{ education-item.university | markdownify}}</dd>
+            {% endfor %}
+          </dl>
+        </div>
+       <!-- <div class="about-section about-section--nested"> 
+          <h3 class="about-section-title type-level-2">Competitions</h3>
+          <dl class="relational-list">
+            {% for competition-item in page.competitions %}
+              <dt class="relational-list__title">{{ competition-item.event | markdownify}}</dt>
+              <dd class="relational-list__description relational-list__description--period">{{ competition-item.period | markdownify}}</dd>
+              <dd class="relational-list__description"><a href="{{ competition-item.link }}">{{ competition-item.result | markdownify}}</a></dd>
+            {% endfor %}
+          </dl>
+        </div> -->
+      </div>
+
+      <div class="about-publications">
+        <div class="about-section">
+          <h3 class="about-section-title type-level-2">Publications</h3>
+          <dl class="relational-list">
+            {% for publications-item in page.publications %}
+              <dt class="relational-list__title">{{ publications-item.title | markdownify}}</dt>
+              <dd class="relational-list__description">{{ publications-item.authors | markdownify}}</dd>
+            {% endfor %}
+          </dl>
+        </div>
+
+         <!-- <div class="about-section about-section--nested"> 
+          <h3 class="about-section-title type-level-2">Competitions</h3>
+          <dl class="relational-list">
+            {% for competition-item in page.competitions %}
+              <dt class="relational-list__title">{{ competition-item.event | markdownify}}</dt>
+              <dd class="relational-list__description relational-list__description--period">{{ competition-item.period | markdownify}}</dd>
+              <dd class="relational-list__description"><a href="{{ competition-item.link }}">{{ competition-item.result | markdownify}}</a></dd>
+            {% endfor %}
+          </dl>
+        </div> -->
+      </div>
+
+      <div class="about-talks">
+        <div class="about-section">
+          <h3 class="about-section-title type-level-2">Talks &amp; Trainings</h3>
+          <ul class="list--dashed list--small">
+            {% for tool in page.talks %}
+              <li>{{ tool | markdownify }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+
+      <div class="about-skills">
+        <div class="about-section">
+          <h3 class="about-section-title type-level-2">Skills</h3>
+          <ul class="list--dashed">
+            {% for skill in page.skills %}
+              <li>{{ skill }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+    </div>
+
+  </div>
+</div>
