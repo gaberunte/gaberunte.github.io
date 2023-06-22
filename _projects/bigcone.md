@@ -23,13 +23,13 @@ content_layout:
 
   - section_layout: 2col
     images:
-      - caption:
+      - caption: A pair of bigcone Douglas-firs after fire
         description: 'A pair of bigcone Douglas-firs after fire'
         url: '/projects/bigcone/scorched.jpeg'
         width:
         height:
 
-      - caption:
+      - caption: Caught in a slow/sleet storm high on a ridge
         description: 'Caught in a slow/sleet storm high on a ridge'
         url: '/projects/bigcone/sleeting.jpeg'
         width:
@@ -37,15 +37,15 @@ content_layout:
 
   - section_layout: 2col
     images:
-      - caption:
+      - caption: A thriving outplant in a successful microsite
         description: 'A thriving outplant in a successful microsite'
-        url: 'projects/bigcone/outplant.jpeg'
+        url: '/projects/bigcone/outplant.jpeg'
         width:
         height:
 
-      - caption:
-        description: 'Outplants hanging out in the shade under oaks'
-        url: '/projects/bigcone/oaksite.jpg'
+      - caption: Making our way out to check on the seedlings
+        description: 'Making our way out to check on the seedlings'
+        url: '/projects/bigcone/hikingtosites.jpeg'
         width:
         height:
 
