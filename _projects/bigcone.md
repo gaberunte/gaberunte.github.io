@@ -25,28 +25,28 @@ content_layout:
   - section_layout: 2col
     images:
       - caption:
-        description: '<em>Amanita muscaria</em> between sites'
-        url: '/projects/sjnf/amanita.JPG'
+        description: 'A pair of bigcone Douglas-firs after fire'
+        url: '/projects/bigcone/scorched.jpeg'
         width:
         height:
 
       - caption:
-        description: 'Looking up through aspen leaves at the sky'
-        url: '/projects/sjnf/canopy.JPG'
+        description: 'Caught in a slow/sleet storm high on a ridge'
+        url: '/projects/bigcone/sleeting.jpeg'
         width:
         height:
 
   - section_layout: 2col
     images:
       - caption:
-        description: 'Mixed forest at high elevaiton sites'
-        url: '/projects/sjnf/throughtrees.JPG'
+        description: 'A thriving outplant in a successful 'mircosite''
+        url: '/projects/bigcone/outplant.jpeg'
         width:
         height:
 
       - caption:
-        description: 'A beautiful meadow at high elevation'
-        url: '/projects/sjnf/landscape.JPG'
+        description: 'Outplants hanging out in the shade under oaks'
+        url: '/projects/bigcone/oaksite.jpg'
         width:
         height:
 

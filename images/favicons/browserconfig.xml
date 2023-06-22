@@ -18,8 +18,8 @@
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
   <WindowHeight>17440</WindowHeight>
   <WindowWidth>28040</WindowWidth>
-  <WindowTopX>5180</WindowTopX>
-  <WindowTopY>1800</WindowTopY>
+  <WindowTopX>14040</WindowTopX>
+  <WindowTopY>2500</WindowTopY>
   <ProtectStructure>False</ProtectStructure>
   <ProtectWindows>False</ProtectWindows>
  </ExcelWorkbook>
@@ -32,11 +32,11 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="s16">
+  <Style ss:ID="s62">
    <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"
     ss:Bold="1"/>
   </Style>
-  <Style ss:ID="s17">
+  <Style ss:ID="s63">
    <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"
     ss:Bold="1"/>
    <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
@@ -47,24 +47,25 @@
    x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="16">
    <Column ss:Width="238"/>
    <Column ss:Width="152"/>
-   <Row>
-    <Cell ss:StyleID="s16"><Data ss:Type="String">/browserconfig</Data></Cell>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">/browserconfig</Data></Cell>
    </Row>
-   <Row>
-    <Cell ss:StyleID="s17"><Data ss:Type="String">/msapplication/tile/square150x150logo/@src</Data></Cell>
-    <Cell ss:StyleID="s17"><Data ss:Type="String">/msapplication/tile/TileColor</Data></Cell>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">/msapplication/tile/square150x150logo/@src</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">/msapplication/tile/TileColor</Data></Cell>
    </Row>
-   <Row>
-    <Cell><Data ss:Type="String">/images/favicons/GR-removebg-preview.png</Data></Cell>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">/images/favicons/favicon-32x32.png</Data></Cell>
     <Cell><Data ss:Type="String">#212121</Data></Cell>
    </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
    <Selected/>
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveRow>3</ActiveRow>
+     <ActiveRow>11</ActiveRow>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>

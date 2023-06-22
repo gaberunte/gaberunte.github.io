@@ -14,36 +14,48 @@ thumbnail: "/projects/neighbors_greenhouse/pot_down.jpeg"
 
 
 intro: |
-  **Los Padres National Forest, California USA** <br><br>
-   In the winter of 2019, we put nearly 2,000 seedlings into the ground in a mixed study design to better understand the ecological niche of the bigcone Douglas-fir (<i>Pseudotsuga macrocarpa</i>). The experience and findings from this study inform much of the work above. A really fun project with an amazing group of scientists. The paper is out in <a href="https://doi.org/10.3389/ffgc.2022.995487">Frontiers in Forests and Global Change</a>. 
+  **NSF Greenhouses, UC Santa Barbara** <br><br>
+   This three-year microcosm experiment aims to broaden our understanding of the ways in which ectomycorrhizal communities form and function. By varying the seedling species composition and soil conditioning prior to co-planting in a shared "neighbor" pot, we are able to track the changes in fungal species and their role in buffering the experienced stress of a simulated drought in the final stage of the project. This study began in the winter of 2020, just as our university closed down with the pandemic. A year later, seedlings were unpotted and moved to shared pots. More than a year after that, in summer 2022, we began a drought treatment on half of the pots. This project was harvested in March 2023 and is in analysis.  
 
 content_layout:
 
-  - section_layout: 2col
+  - section_layout: 3col
     images:
       - caption:
-        description: '<em>Amanita muscaria</em> between sites'
-        url: '/projects/sjnf/amanita.JPG'
+        description: 'A shared pot in the neighbors stage'
+        url: '/projects/neighbors_greenhouse/potdown.jpeg'
         width:
         height:
 
       - caption:
-        description: 'Looking up through aspen leaves at the sky'
-        url: '/projects/sjnf/canopy.JPG'
+        description: 'A peek at the many neighbor pots in the study'
+        url: '/projects/neighbors_greenhouse/greenhouse.jpeg'
         width:
         height:
 
-  - section_layout: 2col
+      - caption:
+        description: 'Seedlings growing out in year 1'
+        url: '/projects/neighbors_greenhouse/seedlings.jpeg'
+        width:
+        height:
+
+  - section_layout: 3col
     images:
       - caption:
-        description: 'Mixed forest at high elevaiton sites'
-        url: '/projects/sjnf/throughtrees.JPG'
+        description: 'Young fir at repotting'
+        url: '/projects/neighbors_greenhouse/bc_img1.jpeg'
         width:
         height:
 
       - caption:
-        description: 'A beautiful meadow at high elevation'
-        url: '/projects/sjnf/landscape.JPG'
+        description: 'Young oak at repotting'
+        url: '/projects/neighbors_greenhouse/oak_img1.jpeg'
+        width:
+        height:
+
+      - caption:
+        description: 'Another young fir at repotting'
+        url: '/projects/neighbors_greenhouse/bc_img2.jpeg'
         width:
         height:
 
