@@ -4,7 +4,6 @@ published: true
 title: "Restoring an endemic fir"
 location: Los Padres National Forest, California USA
 description: "Understanding the ecology and restoration potential of a threatened fir"
-categories: photography
 disciplines: Restoration <br> Field work <br> Bioinformatics
 media: Book
 ownership: Personal
@@ -39,8 +38,8 @@ content_layout:
   - section_layout: 2col
     images:
       - caption:
-        description: 'A thriving outplant in a successful 'mircosite''
-        url: '/projects/bigcone/outplant.jpeg'
+        description: 'A thriving outplant in a successful microsite'
+        url: 'projects/bigcone/outplant.jpeg'
         width:
         height:
 

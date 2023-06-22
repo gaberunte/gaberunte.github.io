@@ -21,19 +21,19 @@ content_layout:
 
   - section_layout: 3col
     images:
-      - caption:
+      - caption: A shared pot in the neighbors stage
         description: 'A shared pot in the neighbors stage'
         url: '/projects/neighbors_greenhouse/potdown.jpeg'
         width:
         height:
 
-      - caption:
+      - caption: A peek at the many neighbor pots in the study
         description: 'A peek at the many neighbor pots in the study'
         url: '/projects/neighbors_greenhouse/greenhouse.jpeg'
         width:
         height:
 
-      - caption:
+      - caption: Seedlings growing out in year 1
         description: 'Seedlings growing out in year 1'
         url: '/projects/neighbors_greenhouse/seedlings.jpeg'
         width:
@@ -41,19 +41,19 @@ content_layout:
 
   - section_layout: 3col
     images:
-      - caption:
+      - caption: Young fir at repotting
         description: 'Young fir at repotting'
         url: '/projects/neighbors_greenhouse/bc_img1.jpeg'
         width:
         height:
 
-      - caption:
+      - caption: Young oak at repotting
         description: 'Young oak at repotting'
         url: '/projects/neighbors_greenhouse/oak_img1.jpeg'
         width:
         height:
 
-      - caption:
+      - caption: Another young fir at repotting
         description: 'Another young fir at repotting'
         url: '/projects/neighbors_greenhouse/bc_img2.jpeg'
         width:
