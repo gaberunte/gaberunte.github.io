@@ -1,5 +1,5 @@
 ---
-date: 2019-03-01
+date: 2023-04-01
 published: true
 title: "Howdy Neighbor"
 location: NSF Greenhouses, UC Santa Barbara
@@ -23,7 +23,7 @@ content_layout:
     images:
       - caption: A shared pot in the neighbors stage
         description: 'A shared pot in the neighbors stage'
-        url: '/projects/neighbors_greenhouse/potdown.jpeg'
+        url: '/projects/neighbors_greenhouse/pot_down.jpeg'
         width:
         height:
 
@@ -49,7 +49,7 @@ content_layout:
 
       - caption: Young oak at repotting
         description: 'Young oak at repotting'
-        url: '/projects/neighbors_greenhouse/oak_img1.jpeg'
+        url: '/projects/neighbors_greenhouse/oak_img.jpeg'
         width:
         height:
 

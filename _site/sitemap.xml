@@ -5,7 +5,7 @@
 
   <url>
     <loc>http://localhost:4000/</loc>
-    <lastmod>2023-07-17</lastmod>
+    <lastmod>2023-07-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -26,17 +26,31 @@
   </url>
   
   <url>
+    <loc>http://localhost:4000/esa2023/</loc>
+  </url>
+  
+  <url>
     <loc>http://localhost:4000/projects/bigcone/</loc>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>http://localhost:4000/projects/neighbors_greenhouse/</loc>
+    <loc>http://localhost:4000/projects/spheres/</loc>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:4000/projects/model/</loc>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://localhost:4000/projects/sjnf/</loc>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:4000/projects/neighbors_greenhouse/</loc>
     <priority>0.7</priority>
   </url>
   
