@@ -17,7 +17,7 @@ website:
 
 intro: |
   **R Studio, Macbook Pro** <br><br>
-   Much of my dissertation focuses on the role of 'neighbors' in shaping the structure and functions of mycorrhizal networks. In this project, I break from my path as an empericist and instead work with a mathematical model made up of a system of ordinary differential equations. In this model, we manipulate the degree of connectivity between cooccuring plant-fungal pairs as well as the ability of members within the network to assess partner quality (which we refer to as ROI). This model can be viewed in its entirety on my github and 
+   Much of my dissertation focuses on the role of 'neighbors' in shaping the structure and functions of mycorrhizal networks. In this project, I break from my path as an empericist and instead work with a mathematical model made up of a system of ordinary differential equations. In this model, we manipulate the degree of connectivity between cooccuring plant-fungal pairs as well as the ability of members within the network to assess partner quality (which we refer to as ROI). This model can be viewed in its entirety on my [github](https://github.com/gaberunte/myconetwork) or as a formatted presentation at the ESA link below. 
 
 content_layout:
 
